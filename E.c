@@ -1,4 +1,4 @@
-#define STDIN_FILENO 0
+
 #include <math.h>
 #include <ctype.h>
 #include <errno.h>
