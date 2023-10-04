@@ -1,5 +1,3 @@
-
-
 void load(machine* m) {
     randomize_i64_vec(m->_k,K);
     randomize_i64_vec(m->_x,X);
@@ -40,9 +38,9 @@ void test(machine* m) {
     i64 d[T] = {0};
     randomize_i64_vec(p,T);
     print_i64_vec(p,T);
-    encrypt(c,p,m);
+    encrypt_with(c,p,m);
     print_i64_vec(c,T);
-    decrypt(d,c,m);
+    decrypt_with(d,c,m);
     print_i64_vec(d,T);
     printf("\n");
 }

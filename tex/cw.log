@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.3)  1 OCT 2023 01:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.3)  4 OCT 2023 01:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**E.tex
-(./E.tex
+**cw.tex
+(./cw.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22>
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
@@ -351,8 +351,8 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count293
 \l__pdf_internal_box=\box56
 )
-(./E.aux)
-\openout1 = `E.aux'.
+(./cw.aux)
+\openout1 = `cw.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
@@ -431,9 +431,9 @@ e
 ))
 Package hyperref Info: Link coloring OFF on input line 25.
 
-(./E.out) (./E.out)
+(./cw.out) (./cw.out)
 \@outlinefile=\write3
-\openout3 = `E.out'.
+\openout3 = `cw.out'.
 
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 36
 .
@@ -454,29 +454,27 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./
-E.aux)
-Package rerunfilecheck Info: File `E.out' has not changed.
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./cw.a
+ux)
+Package rerunfilecheck Info: File `cw.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10995 strings out of 476025
- 171836 string characters out of 5790018
- 1860388 words of memory out of 5000000
- 31307 multiletter control sequences out of 15000+600000
- 518000 words of font info for 56 fonts, out of 8000000 for 9000
+ 10991 strings out of 476025
+ 171814 string characters out of 5790018
+ 1855388 words of memory out of 5000000
+ 31305 multiletter control sequences out of 15000+600000
+ 517831 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,76p,795b,553s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,76p,441b,478s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
-local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on E.pdf (2 pages, 62227 bytes).
+></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
+sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on cw.pdf (1 page, 44824 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
+ 34 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
+ 2 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

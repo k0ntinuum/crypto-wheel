@@ -1,6 +1,8 @@
-void cls() {
+void clear_screen() {
     printf( "\x1b[2J");
 }
+
+
 void cursor_to(int r, int c) {
     printf("\x1b[%d;%dH",r+1,c+1);
 }

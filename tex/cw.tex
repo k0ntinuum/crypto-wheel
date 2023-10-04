@@ -1,0 +1,47 @@
+
+
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{ mathrsfs }
+\usepackage{amssymb} %maths
+\usepackage{amsmath} %maths
+\usepackage[margin=0.2in]{geometry}
+\usepackage{graphicx}
+\usepackage{ulem}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{10pt}
+\usepackage{hyperref}
+\usepackage[autostyle]{csquotes}
+
+\usepackage{cancel}
+\renewcommand{\i}{\textit}
+\renewcommand{\b}{\textbf}
+\newcommand{\q}{\enquote}
+%\vskip1.0in
+
+
+
+\begin{document}
+
+\begin{huge}
+
+
+
+{\setstretch{0.0}{
+
+
+Crypto Wheel is a symmetric cryptosystem built on an evolving elementary cellular automata. It's basically the same as the system elsewhere called \q{E} (though I am experimenting with minor adjustments.)
+
+A key for the E system is just a typical representation of a CA rule. For instance, a system that uses 2 symbols and a neighborhood of length 5 can be specified with a key of $2^5 = 32$ bits. 
+
+A machine is \q{loaded} with a random key.  The simplest, \q{square} version of a machine uses this key for its initial \q{row state} too.  So the cellular automata is seeded with its own evolution rule. 
+
+In this C version, I'm playing more with using the initial state as another part of the key. The interactive mode lets users watch the computation change as either the key, initial state, or plaintext is randomly changed. Just press \b{k} or \b{x} or \b{p} to activate this randomization. The machine can now be rectangular, so you might use a 32 bit (official) key and then another 64 bits for the seed.
+
+For more information, you can check out an \href{https://k0ntinuum.github.io/E/}{earlier version}  written in V (which is pretty much the same as an encryption algorithm.)
+
+
+}}
+\end{huge}
+\end{document}

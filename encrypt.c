@@ -1,4 +1,4 @@
-void encrypt(i64 c[T], i64 p[T], machine* m) {
+void encrypt_with(i64 c[T], i64 p[T], machine* m) {
     
     for (i64 i = 0 ; i < m->r; i++) {
         for (i64 j = 0; j < i*T; j++ ) spin(m);
@@ -9,7 +9,7 @@ void encrypt(i64 c[T], i64 p[T], machine* m) {
     }
 }
 
-void decrypt(i64 d[T], i64 c[T], machine* m) {
+void decrypt_with(i64 d[T], i64 c[T], machine* m) {
     
     for (i64 i = m-> r - 1 ; i >= 0;  i-- ) {
         for (i64 j = 0; j < i*T; j++ ) spin(m);
